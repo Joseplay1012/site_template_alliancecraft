@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alliancecraft Transcripts</title>
+    <link rel="shortcut icon" href="https://www.alliancecraft.net/uploads/6a4a636c2d1283e9045cce5d5c3af591f0fda954logo.webp" type="image/gif" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @font-face {
+        font-family: "Euclid Circular B Medium";
+        src: url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.eot");
+        src: url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.eot?#iefix")
+        format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.woff2")
+        format("woff2"),
+        url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.woff")
+        format("woff"),
+        url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.ttf")
+        format("truetype"),
+        url("https://db.onlinewebfonts.com/t/721c73bcd2e49f3a621991089838b503.svg#Euclid Circular B Medium")
+        format("svg");
+        font-display: swap;
+      }
+
+      body {
+        background-image: url('https://transcripts.alliancecraft.net/fundos/1331370.png');
+            color: #ffffff;
+            font-family: "Euclid Circular B Medium", Tahoma, Verdana, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+      .section-features .single-service {
+        margin-top: 40px;
+        background: rgba(255, 255, 255, 0.35);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(9px);
+        -webkit-backdrop-filter: blur(9px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+      }
+
+      .section-features .single-service .part-1 {
+        padding: 40px 40px 25px;
+        border-bottom: 2px solid #1d1e23;
+      }
+
+      .section-features .single-service .part-1 i {
+        margin-bottom: 25px;
+        font-size: 50px;
+        color: #ffffff;
+      }
+
+      .section-features .single-service .part-1 .title {
+        font-size: 17px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        line-height: 1.8em;
+      }
+
+      .section-features .single-service .part-2 {
+        padding: 30px 40px 40px;
+      }
+
+      .section-features .single-service .part-2 .description {
+        margin-bottom: 22px;
+        color: white;
+        font-size: 14px;
+        line-height: 1.8em;
+      }
+
+      .section-features .single-service .part-2 a {
+        color: #fff;
+        font-size: 14px;
+        text-decoration: none;
+      }
+
+      .section-features .single-service .part-2 a i {
+        margin-right: 10px;
+        color: #f70037;
+      }
+
+      
+
+      .footer p {
+        margin: 0;
+        line-height: 276px;
+        font-size: 15px;
+        color: #fff;
+      }
+
+      .footer p a {
+        background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        text-decoration: none;
+      }
+
+      .footer p a:hover {
+        color: white;
+      }
+        .profile-button {
+            position: fixed;
+            top: 10px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            box-shadow: 0 0 10px rgb(255, 255, 255);
+            background-color: #f7003600;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+            z-index: 999;
+        }
+
+        .profile-button a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        .cover-image {
+            width: 100%;
+            height: 200px;
+            background-image: url('sua_imagem_de_capa.jpg');
+            background-size: cover;
+            height: 100vh;
+            background-position: center;
+        }
+    </style>
+  </head>
+
+  <body>
+        <div class="container-fluid">
+         <div class="profile-button">
+            <a href="login.html"> <i class="fas fa-user"></i></a>
+        </div>
+      <div class="hero" style="height: 100vh; width: 100%">
+        <div
+          id="hero"
+          class="text-center"
+          style="position: relative; top: 50%; transform: translateY(-50%)"
+        >
+          <h1>Alliancecraft</h1>
+          <p>
+            Seja bem vindo ao Site de Template do alliancecraft
+          </p>
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                .transparent-button {
+                    background-color: rgba(255, 255, 255, 0.5);
+                    border: none;
+                    color: #000;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                }
+        
+                .transparent-button:hover {
+                    background-color: rgba(255, 255, 255, 0.7); 
+                }
+            </style>
+        </head>
+        <body>
+            <a href="termos.html">
+              <button class="transparent-button">Veja os Termos do Template</button>
+          </a>
+        </body>
+        </div>
+      </div>
+
+      <div id="features" class="section-features">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-10 col-lg-8">
+              <div class="header-section">
+                <h2 class="title-features">Suporte <span></span></h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="single-service">
+                <div class="part-1">
+                  <i class="fas fa-link"></i>
+                  <h3 class="title">Nosso site</h3>
+                </div>
+                <div class="part-2">
+                  <p class="description">
+                    <a class="nav-link" href="https://www.alliancecraft.net" style="color: white"
+                >Clique Aqui.</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="single-service">
+                <div class="part-1">
+                  <i class="fab fa-discord"></i>
+                  <h3 class="title">Suporte</h3>
+                </div>
+                <a class="nav-link" href="https://discord.gg/PvPCxbPjGW" style="color: white"
+                >Entre no discord, Clique Aqui.</a
+              >
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="single-service">
+                <div class="part-1">
+                  <i class="fas fa-sliders-h"></i>
+                  <h3 class="title">Termos</h3>
+                </div>
+                <div class="part-2">
+                  <p>Ao utilizar os suporte de ticket o Alliancecraft, voce concorda com os seguintes termos:</p>
+
+        <h2>Coleta e Uso de Dados</h2>s. O bot pode armazenar dados relacionados a configuracao do servidor, como messagens de tickets, para melhorar a experiencia do usuario, mas esses dados sao armazenados apenas no servidor onde o bot esta sendo executado e nao sao compartilhados com terceiros.</p>
+        <p>O Alliancecraft nao coleta informacoes pessoais dos usuario
+
+        <h2>Dados de Uso</h2>
+        <p>O Alliancecraft pode coletar dados de uso, como comandos executados, erros encontrados e informacoes sobre a atividade do servidor para fins de diagnostico e melhoria do serviso. Esses dados sao usados de forma agregada e nao identificam usuarios individuais.</p>
+
+        <h2>Cookies</h2>
+        <p>O Alliancecraft nao utiliza cookies para rastrear informacoes dos usuarios.</p>
+        <h2>Seguranca</h2>
+        <p>Tomamos medidas para proteger os dados do servidor onde o bot esta hospedado, para evitar acesso nao autorizado e divulgacao de informacoes. No entanto, nao podemos garantir a seguranca absoluta dos dados transmitidos ou armazenados no servidor.</p>
+
+        <h2>Alteracoes na Polatica de Privacidade</h2>
+        <p>Esta polatica de privacidade pode ser atualizada ocasionalmente. As alteracoes serao publicadas nesta pagina, e a sua continuidade no uso do bot apos a publicacao das modificacoes constituira a sua aceitacao das mudancas.</p>
+
+        <h2>Contato</h2>
+        <p>Se voce tiver alguma duvida ou preocupacao sobre esta politica de privacidade, entre em contato conosco atraves do servidor do Discord ou dos canais de suporte fornecidos.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>

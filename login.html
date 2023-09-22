@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.alliancecraft.net/uploads/6a4a636c2d1283e9045cce5d5c3af591f0fda954logo.webp" type="image/gif" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Login</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/originals/e5/8d/c1/e58dc140e157a4282a02b65af048c6b8.gif');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            background-attachment: fixed;
+            color: #ffffff;
+            font-family: "Euclid Circular B Medium", Tahoma, Verdana, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(9px);
+            -webkit-backdrop-filter: blur(9px);
+            text-align: center;
+        }
+        h2 {
+            margin-top: 0;
+            background: linear-gradient(to right, #ffffff, #ffffff, #fdfdfd);
+            color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text;
+            text-decoration: none;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.35);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            color: #fff;
+        }
+        button {
+            background-color: #fff;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login ainda em Dev</h2>
+        <form action="inicio.html" method="post">
+            <input type="text" placeholder="Nome de usuário" name="username" pattern="admin" required>
+            <input type="password" placeholder="Senha" name="password" pattern="" title="Senha incorreta" required>
+            <button type="submit"><i class="fas fa-lock"></i> Login</button>
+        </form>
+    </div>
+    <script>
+        // Use JavaScript para fazer uma solicitação AJAX para buscar a senha do arquivo
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', 'senha.txt', true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var senha = xhr.responseText;
+                document.getElementById('password').value = senha;
+            }
+        };
+        xhr.send();
+    </script>
+</body>
+</html>
