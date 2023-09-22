@@ -21,7 +21,7 @@ Para visualizar os tickets relacionados ao AllianceCraft, acesse nossa [página 
 🚀 **Sobre o AllianceCraft**:
 O AllianceCraft é um servidor de Minecraft que vem trazendo diversão e alegria para todos os jogadores com eventos emocionantes, recursos como MCMMO e muito mais, desde 2021 até 2023. Nossa comunidade é dedicada à criação de um ambiente de jogo excepcional.
 
-Divirta-se explorando e contribuindo para o desenvolvimento do site da AllianceCraft. Se você tiver alguma dúvida ou sugestão, não hesite em entrar em contato conosco.
+Divirta-se explorando e contribuindo para o desenvolvimento do site do AllianceCraft. Se você tiver alguma dúvida ou sugestão, não hesite em entrar em contato conosco.
 
 🌐 **Links Úteis**:
 - [Site Oficial do AllianceCraft](https://alliancecraft.net)
