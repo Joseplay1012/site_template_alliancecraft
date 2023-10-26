@@ -11,7 +11,7 @@ Este repositório contém a base de desenvolvimento para o nosso novo site de tr
 Se você deseja contribuir para o desenvolvimento deste site template, sinta-se à vontade para fazer fork deste repositório, fazer suas alterações e enviar uma solicitação pull. Adoraríamos ter sua colaboração!
 
 👏 **Créditos e Desenvolvedores**:
-- Desenvolvido por: [Joseplay](https://github.com/joseplay1012) e [João Victor/JV](https://github.com/Joao-Victor-Liporini)
+- Desenvolvido por: [Joseplay](https://github.com/joseplay1012) e [João Victor/Nevoeiro_](https://github.com/Joao-Victor-Liporini)
 
 Se você usar este template, por favor, deixe os créditos visíveis no seu site para reconhecer o trabalho da equipe de desenvolvimento.
 
