@@ -16,7 +16,7 @@ Se você deseja contribuir para o desenvolvimento deste site template, sinta-se 
 Se você usar este template, por favor, deixe os créditos visíveis no seu site para reconhecer o trabalho da equipe de desenvolvimento.
 
 🎫 **Tickets**:
-Para visualizar os tickets relacionados ao AllianceCraft, acesse nossa [página de tickets](https://transcripts.alliancecraft.net).
+Para visualizar os tickets relacionados ao AllianceCraft, acesse nossa [página de tickets](https://joseplay1012.github.io/Viwer_alliancecraft_template/).
 
 🚀 **Sobre o AllianceCraft**:
 O AllianceCraft é um servidor de Minecraft que vem trazendo diversão e alegria para todos os jogadores com eventos emocionantes, recursos como MCMMO e muito mais, desde 2021 até 2023. Nossa comunidade é dedicada à criação de um ambiente de jogo excepcional.
